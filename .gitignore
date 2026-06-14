@@ -1,0 +1,51 @@
+# Power BI
+*.pbix.bak
+*.pbix.tmp
+*.pbix.lock
+
+# Excel / Office temp
+~$*.xlsx
+~$*.xls
+~$*.csv
+*.xlk
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Data — never commit full raw data with PII
+# Add exceptions explicitly below
+data/raw/
+data/sensitive/
+*.sql
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+logs/
+
+# Secrets
+.env
+*.env
+secrets.json
+config.local.json
